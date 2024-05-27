@@ -1,0 +1,35 @@
+.list-container {
+  margin-top: 5px;
+  background-color: #75400f;
+  padding: 10px;
+  border-radius: 10px;
+  height: 64vh;
+  box-shadow: 3px 3px 9px black;
+  margin-bottom: 50px;
+}
+
+.list-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.list-item {
+  margin-bottom: 5px;
+}
+
+.list-item strong {
+  color: #007bff; /* Blue color for worker names */
+}
+
+@media screen and (max-width: 600px) {
+  .list-container {
+      margin-top: 20px;
+      padding: 50px;
+      height: 60vh;
+  }
+  
+  .list-title {
+      margin-bottom: 10px;
+  }
+}

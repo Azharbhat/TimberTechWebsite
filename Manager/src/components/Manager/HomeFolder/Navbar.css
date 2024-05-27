@@ -1,0 +1,98 @@
+/* Navbar CSS */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #c16310; /* Adjust as needed */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* Add padding for better spacing */
+  margin-bottom: 500px;
+  text-decoration: none;
+  box-shadow: 3px 3px 9px black;
+  z-index: 100;
+}
+body {
+  padding-top: 80px; /* Adjust the value to match the height of your navbar */
+   /* Add margin at the bottom for spacing */
+}
+
+/* Remove text decoration from links */
+.nav-buttons a {
+  text-decoration: none;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nav-buttons button {
+  margin-right: 10px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  background-color: #623d1d;
+  border-radius: 5px;
+  margin-top: 5px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.nav-buttons button span {
+  margin-left: 5px;
+}
+
+/* Toggle icon */
+.nav-toggle {
+  display: none; /* Initially hide the toggle icon */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  /* For Tablets */
+  .navbar {
+    padding: 10px 20px; /* Adjust padding for tablet */
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column; /* Change flex direction to column for mobile */
+    align-items: flex-start; /* Align items to the start */
+    padding: 20px; /* Increase padding for better spacing */
+  }
+  body {
+    padding-top: 0px; /* Adjust the value to match the height of your navbar */
+     /* Add margin at the bottom for spacing */
+  }
+  .nav-buttons {
+    flex-direction: column; /* Change flex direction to column for mobile */
+    margin-top: 20px; /* Add margin between buttons */
+  }
+
+  .nav-buttons button {
+    margin: 5px 0; /* Adjust margin for better spacing */
+  }
+
+  .nav-toggle {
+    display: block; /* Show toggle icon on smaller screens */
+    position: absolute; /* Position at the top right corner */
+    top: 10px;
+    right: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 1100; /* Ensure it's above the navbar */
+  }
+
+  .navbar.open {
+    height: auto; /* Set height to auto when navbar is open */
+  }
+}

@@ -1,0 +1,89 @@
+.transactions-app {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #75400f;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 9px black;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header-info div {
+  margin-bottom: 5px;
+}
+
+.filter {
+  margin-top: 10px;
+}
+
+.transactions-list {
+  background-color: #a77538;
+  padding: 10px;
+  border-radius: 10px;
+  height: 60vh;
+  box-shadow: 3px 3px 9px black;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #fe810c;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.transaction.full {
+  background-color: #e4e40f;
+}
+
+.transaction.payment {
+  background-color: #fc7a00;
+}
+
+.transaction.half {
+  background-color: #ff7801;
+}
+
+.add-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #75400f;
+  border-radius: 10px;
+  box-shadow: 3px 3px 9px black;
+}
+
+.add-data select, .add-data input {
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.add-data button {
+  background-color: #8b4513;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 3px 3px 9px black;
+}
+
+.add-data button:hover {
+  background-color: #75400f;
+}

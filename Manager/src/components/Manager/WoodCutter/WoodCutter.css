@@ -1,0 +1,57 @@
+.Woodcontainer {
+    padding: 20px;
+    background-color: #c9441b;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    height: 80vh;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d4a373;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  
+  .form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 60px;
+  }
+  
+  .input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .button {
+    grid-column: span 2;
+    padding: 10px;
+    background-color: #a0522d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #8b4513;
+  }
+  

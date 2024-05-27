@@ -1,0 +1,52 @@
+/* src/DeliveryApp.css */
+.delivery-app {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: #a0522d;
+    padding: 10px;
+    color: white;
+  }
+  
+  .header div {
+    margin: 5px 0;
+  }
+  
+  .deliveries {
+    margin-top: 20px;
+  }
+  
+  .delivery {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .add-data-form {
+    margin-top: 20px;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .add-data-form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: calc(100% - 16px);
+  }
+  
+  .add-data-form button {
+    background-color: #a0522d;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+  }

@@ -1,0 +1,32 @@
+.workers-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .workers-container h1 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+  
+  li:hover {
+    background-color: #eaeaea;
+  }
+  
+  .add-worker-button {
+    text-align: right;
+    margin-top: 20px;
+  }
+  

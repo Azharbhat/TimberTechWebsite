@@ -1,0 +1,43 @@
+.join-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Set the height to full viewport height */
+}
+
+
+.role-buttons {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.join-input {
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.join-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.join-button:hover {
+  background-color: #0056b3;
+}

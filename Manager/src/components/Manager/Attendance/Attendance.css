@@ -1,0 +1,47 @@
+.Attendancecontainer {
+    background-color: #f8e8a2;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    height: 80vh;
+  }
+  
+  .header {
+    color: #6b5b95;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .name {
+    flex: 1;
+    text-align: left;
+    color: #333;
+  }
+  
+  .button {
+    background-color: #f8e8a2;
+    border: 2px solid #ffd700;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #ffd700;
+  }
+  
+  .button.active {
+    background-color: #ffd700;
+  }
+  
